@@ -1,0 +1,1 @@
+(function(){var r=document.getElementById("car");if(!r)return;var s=r.querySelectorAll(".sl"),i=0;if(s.length<2)return;setInterval(function(){s[i].classList.remove("on");i=(i+1)%s.length;s[i].classList.add("on")},3000)})();
