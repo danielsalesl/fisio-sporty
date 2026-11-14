@@ -1,19 +1,5 @@
 // Melhorias progressivas. O site funciona sem este arquivo: todos os CTAs já são links wa.me no HTML.
 (function () {
-  // CTA persistente: só aparece depois que o CTA do hero sai da tela, para não duplicar na mesma dobra.
-  var bar = document.getElementById("bar");
-  var heroCta = document.getElementById("hero-cta");
-  if (bar && heroCta) {
-    if ("IntersectionObserver" in window) {
-      new IntersectionObserver(function (entries) {
-        var e = entries[0];
-        bar.classList.toggle("show", !e.isIntersecting && e.boundingClientRect.top < 0);
-      }).observe(heroCta);
-    } else {
-      bar.classList.add("show");
-    }
-  }
-
   // Mapa: o iframe do Google Maps só carrega quando o paciente pede.
   var map = document.getElementById("map");
   var btn = document.getElementById("map-btn");

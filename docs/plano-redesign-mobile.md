@@ -5,7 +5,9 @@ Cada item cita o problema da [auditoria](auditoria-mobile.md) que resolve (P1…
 ## Ordem final da página (leitura mobile)
 
 1. **Hero:** o que trata, para quem, onde, com um único CTA. Foto estática.
-2. **CTA persistente:** barra inferior que só aparece depois que o CTA do hero sai da tela.
+2. ~~**CTA persistente:** barra inferior que só aparece depois que o CTA do hero sai da tela.~~
+   Removida em 2026-11-14 a pedido do cliente. No mobile, os CTAs ficam nas próprias seções
+   (hero, cards, equipe, como funciona, FAQ e rodapé).
 3. **Especialidades:** cards “Como podemos ajudar você?”, a lista completa de serviços e a
    faixa do atendimento domiciliar.
 4. **Prova social:** números que já existem (desde 2023, 5 fisioterapeutas com CREFITO,
