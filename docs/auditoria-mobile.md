@@ -40,7 +40,7 @@ conteúdo e estrutura. Eles estão abaixo, em ordem de impacto.
 ## Problemas, por impacto na conversão
 
 ### P1. Os CTAs dependem de JavaScript para funcionar — `index.html` (todos os `[data-wa]`), `js/script.js`
-Os 17 botões de agendamento têm `href="#"`. O link `wa.me` só é montado pelo `script.js`.
+Os 20 links de agendamento têm `href="#"`. O link `wa.me` só é montado pelo `script.js`.
 Em conexão instável, se o JS demorar ou falhar, o paciente toca em “Agendar” e a página só
 volta ao topo. É o único caminho de conversão do site.
 
