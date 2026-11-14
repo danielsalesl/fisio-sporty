@@ -15,8 +15,10 @@ Cada item cita o problema da [auditoria](auditoria-mobile.md) que resolve (P1…
    carrossel. Depoimentos e convênios: TODO, porque não existem no site.
 5. **Equipe:** cards compactos com foto, nome, registro, especialidades e botão.
 6. **Como funciona:** os 3 passos, com CTA.
-7. **Como chegar:** cidade, mapa carregado só no clique, link “Abrir no Google Maps”.
-   Endereço, horários e estacionamento ficam como TODO.
+7. **Como chegar:** endereço, rotas, telefone e mapa interativo do Google. O mapa entra
+   quando a seção chega a 400px da tela (ou no toque), nunca no carregamento inicial.
+   Dados do perfil da clínica no Google, informados pelo cliente em 2026-11-14.
+   Horários completos e estacionamento seguem como TODO.
 8. **FAQ:** acordeão com `<details>`, sem JS.
 9. **Rodapé:** contato, WhatsApp, Instagram e dados da clínica.
 
